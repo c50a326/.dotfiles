@@ -1,1 +1,5 @@
 nvim/.local
+
+weechat/.weechat/*
+!weechat/.weechat/irc.conf
+!weechat/.weechat/weechat.conf
