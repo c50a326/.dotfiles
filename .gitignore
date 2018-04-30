@@ -1,4 +1,5 @@
 nvim/.local
+!nvim/.local/share/site/autoload/plug.vim
 
 weechat/.weechat/*
 !weechat/.weechat/irc.conf
