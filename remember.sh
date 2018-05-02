@@ -3,3 +3,4 @@ curl -fLo ~/.dotfiles/nvim/.local/share/nvim/site/autoload/plug.vim --create-dir
 
 # http://vim.wikia.com/wiki/Avoid_the_escape_key
 # norvig 21 days
+# awesome awesome
