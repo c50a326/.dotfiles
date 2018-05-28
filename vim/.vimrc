@@ -9,6 +9,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-abolish'
+Plug 'tpope/vim-commentary'
 " Plug 'guns/vim-sexp'
 " Plug 'tpope/vim-sexp-mappings-for-regular-people'
 Plug 'jiangmiao/auto-pairs'
@@ -40,6 +41,7 @@ let g:user_emmet_settings = {
 
 let g:vim_markdown_folding_disabled = 1
 
-" let g:sexp_filetypes='lisp,clojure,scheme,timl,javascript.jsx,js,javascript'
+let g:sexp_filetypes='lisp,clojure,scheme,timl,javascript.jsx,js,javascript'
 
 " let @a='O{2jV%d2kpkddV%>'
+let g:airline_powerline_fonts = 1
