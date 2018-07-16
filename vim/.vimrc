@@ -23,8 +23,9 @@ Plug 'elmcast/elm-vim'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'w0rp/ale'
 Plug 'neomake/neomake'
+Plug 'sbdchd/neoformat'
+Plug 'junegunn/fzf'
 call plug#end()
-
 set number
 set relativenumber
 set hlsearch
@@ -68,7 +69,8 @@ let g:ale_linters = {
 
 let g:ale_fixers = {
 \   'haskell': [
-\       'hfmt'
+\       'hfmt',
+\       'brittany',
 \   ],
 \}
 let g:ale_fix_on_save = 1
