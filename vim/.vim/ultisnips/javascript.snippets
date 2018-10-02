@@ -1,5 +1,5 @@
 snippet im
-import $1 from "$2";
+import $1 from $2
 endsnippet
 
 snippet gnp
@@ -8,4 +8,26 @@ import React from "react";
 export default ($1) => (
   $0
 );
+endsnippet
+
+snippet cec
+class $1 extends Component {
+  render() {
+    return(
+      $0
+    );
+  }
+}
+endsnippet
+
+snippet rbp
+import React, { Component } from "react";
+$0
+endsnippet
+
+snippet rcp
+constructor(props) {
+  super(props);
+  $0
+}
 endsnippet
